@@ -56,6 +56,7 @@ body{
   #section-c{
       background-color: #f2e0bd;
       color: #1e3e59;
+      
   }
   #section-c a{
       color: #1e3e59;
@@ -82,7 +83,7 @@ body{
   }
    .line {
       
-      border: 1.5px solid  #1e3e59;
+      border: 0.1rem solid  #1e3e59;
       width: 5rem;
   }
   .line1{
@@ -96,15 +97,31 @@ body{
     color:  #1e3e59;
     font-size: 1.2rem;
   }
+  /* .footerlinks{
+    margin: 20px 0px 20px 0px;
+  } */
+ 
+  .footerlinks li{
+    list-style: none;
+  }
+  .footerlinks li a{
+    text-decoration: none;
+    color:  #1e3e59;
+    
+  }
   #projects a:hover{
     text-decoration: none;
     color:  #E67B4B;
   }
   
   .contacts{
-    padding-left: 6rem;;
+    padding-left: 6rem;
   }
-
+  .footertext{
+    padding-bottom: 1rem;
+    border-bottom: 0.2rem solid  #1e3e59;
+    width: 7rem;
+  }
   /* about.css */
   .aboutsec{
     background-color: wheat;
@@ -232,4 +249,34 @@ body{
 }
 #blocks li{
  list-style: none;
+}
+
+
+
+
+/* index.html media quries */
+@media only screen and (max-width: 600px) {
+  .subheader{
+      display: none;
+  }
+  #grid1{
+    text-align: center;
+  }
+  #grid2{
+    text-align: center;
+  }
+  .line {
+      
+    border: none;
+    
+    
+  }
+  
+ 
+}
+
+@media only screen and (min-width: 768px) {
+  .gridslide{
+    margin-top: 4rem;
+  }
 }
