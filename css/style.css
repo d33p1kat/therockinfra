@@ -186,7 +186,7 @@ body{
   /* about.css */
   .aboutsec{
     background-color: wheat;
-    height: 20rem;
+    height: 23rem;
     line-height: 1.6;
     color: black;
   }
@@ -218,21 +218,26 @@ body{
     background-repeat: no-repeat;
     background-size: cover; 
   }
-  
-  .bg-text{
+  .overlay {
     position: absolute;
-    top: 50%;
-    left: 15%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    z-index: 2;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    
   }
-  .bg-text h2{
-    margin: 0;
+  .description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
     text-align: center;
   }
-
+  .description h1 {
+    color:  #dfcca7;
+  }
+  
   .plan{
     background-color: #1e3e59;
     color: white;
@@ -240,7 +245,7 @@ body{
   }
   .planimg{
     background-color: #f2e0bd;
-
+    /* padding: 0 10rem 0 16rem; */
   }
   .img-fluid {
     max-width: 100%;
@@ -253,7 +258,7 @@ body{
   }
   .projplan{
     background-color: #c5e5e0;
-  }
+  } 
   .features{
     font-size: 0.8rem;
   }
@@ -363,8 +368,8 @@ body{
     font-size: 1.4rem;
   }
   .aboutsec{
-    height: 16rem;
-    padding: 0 0.8rem;
+    height: 15rem;
+    padding: 1rem 0.8rem 0.5rem 0.8rem ;
   }
   .aboutimg{
     height: 10rem;
@@ -429,13 +434,15 @@ body{
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 600px){
+@media screen and (max-width: 812px) and (min-width: 600px){
   .aboutsec p{
     font-size: 0.9rem;
   }
   .aboutsec h2{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
+ 
+ 
 }
 
 @media screen and (max-width: 362px) and (min-width: 279px){
@@ -456,11 +463,11 @@ body{
     font-size: 0.5rem;
   }
   .aboutsec h2{
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .aboutsec{
     height: 16rem;
-    padding: 0.1rem 0rem;
+    padding: 0.4rem 0rem 0.1rem 0rem;
   }
   .contactinfo h3{
     font-size: 0.8rem;
@@ -469,3 +476,16 @@ body{
   
 }
 
+@media screen and (max-width: 823px) and (min-width: 815px){
+
+  .aboutsec p{
+    font-size: 0.7rem;
+  }
+  .aboutsec h2{
+    font-size: 1rem;
+  }
+  .aboutsec{
+    height: 25rem;
+    line-height: 1.4;
+  }
+}
