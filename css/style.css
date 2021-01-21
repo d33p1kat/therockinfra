@@ -410,7 +410,12 @@ body{
     font-size: 1.2rem;
     text-align: center;
   }
- 
+  .showcase h1{
+    font-size: 1rem;
+  }
+  .showcase .bg-image{
+    height: 10rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -441,7 +446,28 @@ body{
   .aboutsec h2{
     font-size: 1.5rem;
   }
- 
+  .subheader{
+    display: none;
+  }
+  .link-center:after, .link-left::after, .link-right::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    bottom: -10px;
+    display: block;
+    background:#1e3e59;
+    width: 25%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  
+  }
+  .showcase h1{
+    font-size: 1rem;
+  }
+  .showcase .bg-image{
+    height: 10rem;
+  }
  
 }
 
