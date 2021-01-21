@@ -7,16 +7,12 @@
 }
 body{
   overflow-x: hidden;
+  height: 100vh;
 }
-/* .container {
-  margin: auto;
-  width: 100%;
-} */
+
 .dropdown-menu a:hover {
   background-color: white;
 }
-
- 
 .subheader{
     background-color: #f2e0bd;
     color: #000;
@@ -72,9 +68,8 @@ body{
       background-color: #1e3e59;
       color: white;
       font-size: 13px;
+    }
 
-      
-  }
   .image2 {
       height: 330px;
       width: 90%;
@@ -122,12 +117,81 @@ body{
     border-bottom: 0.2rem solid  #1e3e59;
     width: 7rem;
   }
+
+ 
+  .link-left{
+    position: relative;
+    
+  }
+  
+  .link-left:after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    bottom: -10px;
+    /* margin-top: 5px; */
+    display: block;
+    background:#1e3e59;
+    width: 25%;
+    left: 0;
+  }
+  .link-center{
+    position: relative;
+  }
+  
+  .link-center:after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    bottom: -10px;
+    display: block;
+    background:#1e3e59;
+    width: 25%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .link-right{
+    position: relative;
+  }
+  
+  .link-right:after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    display: block;
+    bottom: -10px;
+    background:#1e3e59;
+    width: 25%;
+    left: auto;
+    right: 0;
+  }
+  .link2-center{
+    position: relative;
+  }
+  
+  .link2-center:after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    bottom: -10px;
+    display: block;
+    background:#1e3e59;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  
   /* about.css */
   .aboutsec{
     background-color: wheat;
     height: 20rem;
-    line-height: 1.8;
+    line-height: 1.6;
     color: black;
+  }
+  .aboutsec p{
+    font-size: 1.1rem;
   }
  
   .aboutimg{
@@ -136,7 +200,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-    height: 20rem;
+    height: 18rem;
     line-height: 1.6;
    
   }
@@ -222,8 +286,18 @@ body{
   .contimage{
     height: 15rem;
     width: 90%;
-    /* border-radius: 7%; */
     box-shadow: 23px 23px 43px -16px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1.5rem;
+  }
+  .contsec-b{
+    height: 10vh;
+    width: 100%;
+    background-color: #f2e0bd;
+  }
+  .under_const_dummy{
+    height: 50vh;
+    width: 100%;
+    background-color: #f2e0bd;
   }
 /* greenalpha.html */
 .under_const_img{
@@ -265,18 +339,133 @@ body{
   #grid2{
     text-align: center;
   }
-  .line {
-      
-    border: none;
-    
-    
+  .link-center, .link-left, .link-right{
+    position: relative;
   }
   
+  .link-center:after, .link-left::after, .link-right::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    bottom: -10px;
+    display: block;
+    background:#1e3e59;
+    width: 25%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  
+  }
+  .aboutsec p{
+    font-size: 0.6rem;
+  }
+  .aboutsec h2{
+    font-size: 1.4rem;
+  }
+  .aboutsec{
+    height: 16rem;
+    padding: 0 0.8rem;
+  }
+  .aboutimg{
+    height: 10rem;
+    line-height: 1.6;
+  }
+  .aboutimg h1{
+    font-size: 1.2rem;
+  }
+ 
+  .visiontxt{
+    font-size: 0.7rem;
+  }
+  .endlinks .project2{
+    padding-top: 1rem;
+  }
+  .help{
+    padding-bottom: 1rem;
+  }
+  .contactsec{
+    height: 10rem;
+    line-height: 1.6;
+  }
+  .contactsec h1{
+    font-size: 1.2rem;
+  }
+  .contimage{
+    height: 12rem;
+    width: 90%;
+    box-shadow: 23px 23px 43px -16px rgba(0, 0, 0, 0.5);
+  }
+  .contactinfo h3{
+    font-size: 1rem;
+  }
+  .under_const_img{
+    height: 10rem;
+  }
+  .under_const_img h1{
+    font-size: 1.2rem;
+    text-align: center;
+  }
  
 }
 
-@media only screen and (min-width: 768px) {
-  .gridslide{
-    margin-top: 4rem;
+@media only screen and (max-width: 768px) {
+  #section-b{
+    padding: 0 1rem;
+  }
+  .gridslide img{
+    height: 15rem;
+  }
+  #section-b p{
+    font-size: 0.8rem;
+  }
+  .mission h3{
+    font-size: 1.2rem;
+  }
+  .missionbox box{
+      height: 10rem;
+  }
+  .vision h3{
+    font-size: 1.2rem;
   }
 }
+
+@media screen and (max-width: 768px) and (min-width: 600px){
+  .aboutsec p{
+    font-size: 0.9rem;
+  }
+  .aboutsec h2{
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 362px) and (min-width: 279px){
+  .aboutsec p{
+    font-size: 0.5rem;
+  }
+  .aboutsec h2{
+    font-size: 1.5rem;
+  }
+  .contactinfo h3{
+    font-size: 0.8rem;
+  }
+
+}
+
+@media screen and (max-width: 280px) and (min-width: 200px){
+  .aboutsec p{
+    font-size: 0.5rem;
+  }
+  .aboutsec h2{
+    font-size: 0.8rem;
+  }
+  .aboutsec{
+    height: 16rem;
+    padding: 0.1rem 0rem;
+  }
+  .contactinfo h3{
+    font-size: 0.8rem;
+  }
+
+  
+}
+
