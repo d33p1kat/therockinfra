@@ -186,7 +186,7 @@ body{
   /* about.css */
   .aboutsec{
     background-color: wheat;
-    height: 23rem;
+    /* height: 23rem; */
     line-height: 1.6;
     color: black;
   }
@@ -234,8 +234,9 @@ body{
     transform: translate(-50%, -55%);
     text-align: center;
   }
-  .description h1 {
+  .description h2 {
     color:  #dfcca7;
+    font-size: 2.4rem;
   }
   
   .plan{
@@ -245,13 +246,14 @@ body{
   }
   .planimg{
     background-color: #f2e0bd;
-    /* padding: 0 10rem 0 16rem; */
+    padding: 2rem;
   }
-  .img-fluid {
+  /* .img-fluid {
     max-width: 100%;
     height: auto;
-
-  }
+    display: inline-block;
+    vertical-align: middle;
+  } */
   .blockimg{
     background-color: #f2e0bd;
     padding: 2rem;
@@ -304,7 +306,10 @@ body{
     width: 100%;
     background-color: #f2e0bd;
   }
-/* greenalpha.html */
+  
+  
+  /*  greenalpha.html  */
+
 .under_const_img{
     background-image: url("../underconstruction01.jpg") ;
     position: relative;
@@ -330,10 +335,23 @@ body{
  list-style: none;
 }
 
+.townshipsec{
+  background-color: #f2e0bd ;
+}
 
+.specifications .fa-chevron-circle-down{
+  float: right;
+}
+.specifications .cardtext{
+  background-color: #1e3e59;
+ 
+}
 
-
+.card-body{
+  background-color:#f2e0bd;
+}
 /* index.html media quries */
+
 @media only screen and (max-width: 600px) {
   .subheader{
       display: none;
@@ -368,8 +386,9 @@ body{
     font-size: 1.4rem;
   }
   .aboutsec{
-    height: 15rem;
-    padding: 1rem 0.8rem 0.5rem 0.8rem ;
+    /* height: 14rem; */
+    line-height: 1.4;
+    /* padding: 1rem 0.8rem 0.5rem 0.8rem ; */
   }
   .aboutimg{
     height: 10rem;
@@ -410,11 +429,17 @@ body{
     font-size: 1.2rem;
     text-align: center;
   }
-  .showcase h1{
-    font-size: 1rem;
+  .showcase h2{
+    font-size: 1.3rem;
   }
   .showcase .bg-image{
-    height: 10rem;
+    height: 15rem;
+  }
+  .towntxt{
+    font-size: 1.2rem;
+  }
+  .townshipsec p{
+    padding: 0 0 0 1.3rem;
   }
 }
 
@@ -462,21 +487,19 @@ body{
     margin: 0 auto;
   
   }
-  .showcase h1{
-    font-size: 1rem;
+  .showcase h2{
+    font-size: 1.2rem;
   }
-  .showcase .bg-image{
-    height: 10rem;
-  }
+  
  
 }
 
 @media screen and (max-width: 362px) and (min-width: 279px){
   .aboutsec p{
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
   .aboutsec h2{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .contactinfo h3{
     font-size: 0.8rem;
@@ -486,15 +509,12 @@ body{
 
 @media screen and (max-width: 280px) and (min-width: 200px){
   .aboutsec p{
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
   .aboutsec h2{
     font-size: 1rem;
   }
-  .aboutsec{
-    height: 16rem;
-    padding: 0.4rem 0rem 0.1rem 0rem;
-  }
+  
   .contactinfo h3{
     font-size: 0.8rem;
   }
@@ -502,7 +522,7 @@ body{
   
 }
 
-@media screen and (max-width: 823px) and (min-width: 815px){
+/* @media screen and (max-width: 823px) and (min-width: 815px){
 
   .aboutsec p{
     font-size: 0.7rem;
@@ -514,4 +534,4 @@ body{
     height: 25rem;
     line-height: 1.4;
   }
-}
+} */
