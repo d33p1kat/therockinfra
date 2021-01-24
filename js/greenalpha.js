@@ -4,28 +4,28 @@ var plan = document.getElementById("floorplans");
 plan.addEventListener("click", function(e){
     
     if(e.target.parentElement.parentElement.className === "col-sm-4 col-lg-2 col-md-2 col-4 plan 1265_SFT_East p-2 text-center mr-2 mb-2"){
-        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/1265-Sft-East.png"
+        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/1265-Sft-East.jpg"
        
     }else if(e.target.parentElement.parentElement.className === "col-sm-4 col-lg-2 col-md-2 col-4 plan 1265_SFT_West p-2 text-center mr-2 mb-2"){
-        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/1265-Sft-West.png"
+        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/1265-Sft-West.jpg"
     }else if(e.target.parentElement.parentElement.className === "col-sm-4 col-lg-2 col-md-2 col-4 plan 1485_SFT_West p-2 text-center mr-2 mb-2"){
-        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/1485-Sft-West.png"
+        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/1485-Sft-West.jpg"
     }else if(e.target.parentElement.parentElement.className === "col-sm-4 col-lg-2 col-md-2 col-4 plan 1655_SFT_East p-2 text-center mr-2 mb-2"){
-        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/1655-Sft-East.png"
+        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/1655-Sft-East.jpg"
     }else if(e.target.parentElement.parentElement.className === "col-sm-4 col-lg-2 col-md-2 col-4 plan 1655_SFT_West p-2 text-center mr-2 mb-2"){
-        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/1655-Sft-West.png"
+        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/1655-Sft-West.jpg"
     }else if(e.target.parentElement.parentElement.className === "col-sm-4 col-lg-2 col-md-2 col-4 plan 1935_SFT_East p-2 text-center mr-2 mb-2"){
-        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/1935-Sft-East.png"
+        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/1935-Sft-East.jpg"
     }else if(e.target.parentElement.parentElement.className === "col-sm-4 col-lg-2 col-md-2 col-4 plan 1935_SFT_West p-2 text-center mr-2 mb-2"){
-        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/1935-Sft-West.png"
+        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/1935-Sft-West.jpg"
     }else if(e.target.parentElement.parentElement.className === "col-sm-4 col-lg-2 col-md-2 col-4 plan 2020_SFT_East p-2 text-center mr-2 mb-2"){
-        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/2020-Sft-East.png"
+        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/2020-Sft-East.jpg"
     }else if(e.target.parentElement.parentElement.className === "col-sm-4 col-lg-2 col-md-2 col-4 plan 2020_SFT_West p-2 text-center mr-2 mb-2"){
-        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/2020-Sft-West.png"
+        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/2020-Sft-West.jpg"
     }else if(e.target.parentElement.parentElement.className === "col-sm-4 col-lg-2 col-md-2 col-4 plan 2030_SFT_West p-2 text-center mr-2 mb-2"){
-        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/2030-Sft-West.png"
+        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/2030-Sft-West.jpg"
     }else if(e.target.parentElement.parentElement.className === "col-sm-4 col-lg-2 col-md-2 col-4 plan 2030_SFT_East p-2 text-center mr-2 mb-2"){
-        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/2030-Sft-East.png"
+        document.getElementById("planimg").src = "ongoing_greenalpha_floorplan_imgs/2030-Sft-East.jpg"
     }
 
     e.preventDefault(); 
