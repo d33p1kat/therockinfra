@@ -7,7 +7,6 @@
 }
 body{
   overflow-x: hidden;
-  height: 100vh;
 }
 
 .dropdown-menu a:hover {
@@ -92,9 +91,7 @@ body{
     color:  #1e3e59;
     font-size: 1.2rem;
   }
-  /* .footerlinks{
-    margin: 20px 0px 20px 0px;
-  } */
+
  
   .footerlinks li{
     list-style: none;
@@ -129,7 +126,6 @@ body{
     position: absolute;
     height: 3px;
     bottom: -10px;
-    /* margin-top: 5px; */
     display: block;
     background:#1e3e59;
     width: 25%;
@@ -186,7 +182,6 @@ body{
   /* about.css */
   .aboutsec{
     background-color: wheat;
-    /* height: 23rem; */
     line-height: 1.7;
     color: black;
   }
@@ -194,7 +189,7 @@ body{
     font-size: 1.1rem;
   }
  
-  .aboutimg{
+  /* .aboutimg{
     background-image: url("../about_mission_imgs/construction.jpg") ;
     position: relative;
     background-position: center;
@@ -203,7 +198,7 @@ body{
     height: 18rem;
     line-height: 1.6;
    
-  }
+  } */
   .middleline{
     border: 1.5px solid  #1e3e59;
     width: 15rem;
@@ -234,7 +229,7 @@ body{
     transform: translate(-50%, -55%);
     text-align: center;
   }
-  .description h2 {
+  .description h3 {
     color:  #dfcca7;
     font-size: 2.4rem;
   }
@@ -248,12 +243,7 @@ body{
     background-color: #f2e0bd;
     padding: 2rem;
   }
-  /* .img-fluid {
-    max-width: 100%;
-    height: auto;
-    display: inline-block;
-    vertical-align: middle;
-  } */
+  
   .blockimg{
     background-color: #f2e0bd;
     padding: 2rem;
@@ -364,21 +354,19 @@ body{
   background-repeat: no-repeat;
   background-size: cover; 
 }
-/* .galaxyinfo img{
-  height: 24rem;
-  margin: 5rem 0 2rem 0;
-} */
-/* index.html media quries */
 
+/* MEDIA QURIES */
 @media only screen and (max-width: 600px) {
   .subheader{
       display: none;
   }
   #grid1{
     text-align: center;
+    font-size: 1.6rem;
   }
   #grid2{
     text-align: center;
+    font-size: 1.6rem;
   }
   .link-center, .link-left, .link-right{
     position: relative;
@@ -404,18 +392,12 @@ body{
     font-size: 1.5rem;
   }
   .aboutsec{
-    /* height: 14rem; */
-    line-height: 1.6;
-    /* padding: 1rem 0.8rem 0.5rem 0.8rem ; */
-  }
-  .aboutimg{
-    height: 10rem;
     line-height: 1.6;
   }
-  .aboutimg h1{
-    font-size: 1.2rem;
+  .aboutimg img{
+    height: 11rem;
   }
- 
+  
   .visiontxt{
     font-size: 0.7rem;
   }
@@ -447,7 +429,7 @@ body{
     font-size: 1.2rem;
     text-align: center;
   }
-  .showcase h2{
+  .showcase h3{
     font-size: 1.3rem;
   }
   .showcase .bg-image{
@@ -468,13 +450,7 @@ body{
   .galaxylogosec .towntxt{
     font-size: 0.9rem;
   }
-  /* .galaxyinfo img{
-    height: 20rem;
-   
-  } */
-  /* .galaxyinfo{
-    padding: 0 2rem;
-  } */
+  
   .siteinfo p{
     font-size: 1rem;
   }
@@ -484,6 +460,9 @@ body{
   .club_bg img, .projplan img, .planimg img, .blockimg img{
     height: 200px;
     width: auto;
+  }
+  .under_const_img{
+    height: 16rem;
   }
 }
 
@@ -531,7 +510,7 @@ body{
     margin: 0 auto;
   
   }
-  .showcase h2{
+  .showcase h3{
     font-size: 1.2rem;
   }
   
