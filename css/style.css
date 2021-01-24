@@ -73,7 +73,7 @@ body{
       height: 330px;
       width: 90%;
       border-radius: 7%;
-      box-shadow: 23px 23px 43px -16px rgba(0, 0, 0, 0.5);
+      /* box-shadow: 23px 23px 43px -16px rgba(0, 0, 0, 0.5); */
   }
    .line {
       
@@ -89,9 +89,9 @@ body{
   .endlinks  li a{
     text-decoration: none;
     color:  #1e3e59;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
-
+ 
  
   .footerlinks li{
     list-style: none;
@@ -178,6 +178,7 @@ body{
     right: 0;
     margin: 0 auto;
   }
+ 
   
   /* about.css */
   .aboutsec{
@@ -189,7 +190,7 @@ body{
     font-size: 1.1rem;
   }
  
-  /* .aboutimg{
+  .aboutimg{
     background-image: url("../about_mission_imgs/construction.jpg") ;
     position: relative;
     background-position: center;
@@ -198,7 +199,7 @@ body{
     height: 18rem;
     line-height: 1.6;
    
-  } */
+  }
   .middleline{
     border: 1.5px solid  #1e3e59;
     width: 15rem;
@@ -258,7 +259,7 @@ body{
   /* contact.html */
 
   .contactsec{
-    background-image: url("../contact_imgs/contact-page.jpg") ;
+    background-image: url("../contact_imgs/header-contact-us.jpg") ;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -268,9 +269,9 @@ body{
   }
  
   .contactext{
-    font-size: 4rem;
+    /* font-size: 4rem; */
     color: #f2e0bd;
-   
+    font-size: 2.4rem;
   }
   .infocont{
     background-color:  #1e3e59;
@@ -362,11 +363,11 @@ body{
   }
   #grid1{
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
   #grid2{
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
   .link-center, .link-left, .link-right{
     position: relative;
@@ -394,13 +395,13 @@ body{
   .aboutsec{
     line-height: 1.6;
   }
-  .aboutimg img{
+  /* .aboutimg img{
     height: 11rem;
-  }
+  } */
   
-  .visiontxt{
+  /* .visiontxt{
     font-size: 0.7rem;
-  }
+  } */
   .endlinks .project2{
     padding-top: 1rem;
   }
@@ -441,14 +442,15 @@ body{
   .townshipsec p{
     padding: 0 0 0 1.3rem;
   }
-  .galaxyimg h2{
+  .galaxyimg h3{
     font-size: 1.3rem;
   }
   .galaxyimg .bg-image{
     height: 15rem;
   }
   .galaxylogosec .towntxt{
-    font-size: 0.9rem;
+    font-size: 1rem;
+    padding: 0 1rem;
   }
   
   .siteinfo p{
@@ -464,27 +466,33 @@ body{
   .under_const_img{
     height: 16rem;
   }
+  .image2 {
+    height: 232px;
+    width: 90%;
+    border-radius: 7%;
+    /* box-shadow: 23px 23px 43px -16px rgba(0, 0, 0, 0.5); */
+}
 }
 
 @media only screen and (max-width: 768px) {
   #section-b{
-    padding: 0 1rem;
+    padding: 0 0.6rem;
   }
   .gridslide img{
     height: 15rem;
   }
-  #section-b p{
+  /* #section-b p{
     font-size: 0.8rem;
-  }
+  } */
   .mission h3{
     font-size: 1.2rem;
   }
   .missionbox box{
       height: 10rem;
   }
-  .vision h3{
+  /* .vision h3{
     font-size: 1.2rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 812px) and (min-width: 600px){
@@ -517,7 +525,7 @@ body{
  
 }
 
-@media screen and (max-width: 362px) and (min-width: 279px){
+/* @media screen and (max-width: 362px) and (min-width: 279px){
   .aboutsec p{
     font-size: 0.9rem;
   }
@@ -544,4 +552,4 @@ body{
 
   
 }
-
+ */
