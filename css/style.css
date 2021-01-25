@@ -447,6 +447,9 @@ body{
   .townshipsec p{
     padding: 0 0 0 1.3rem;
   }
+  .townshipsec img{
+    width: 10rem;
+  }
   .galaxyimg h3{
     font-size: 1.3rem;
   }
@@ -485,6 +488,11 @@ body{
   }
   .gridslide img{
     height: 15rem;
+    width: 20rem;
+  }
+  .galaxylogosec img{
+    height: 8rem;
+    width: 12rem;
   }
   /* #section-b p{
     font-size: 0.8rem;
