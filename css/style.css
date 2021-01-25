@@ -8,17 +8,22 @@
 body{
   overflow-x: hidden;
 }
-
+.textprimary{
+  color: #1e3e59;
+}
+.textsecondary{
+  color: #f2e0bd;
+}
 .dropdown-menu a:hover {
   background-color: white;
 }
 .subheader{
     background-color: #f2e0bd;
-    color: #000;
-  }
-.subheader li a{
-  color: black;
+    /* color: #000; */
 }
+/* .subheader li a{
+  color: black;
+} */
   .mainheader{
     background-color: #1e3e59;
     color: white;
