@@ -87,18 +87,20 @@ body{
       /* box-shadow: 23px 23px 43px -16px rgba(0, 0, 0, 0.5); */
   }
    .line {
-      
-      border: 0.1rem solid  #1e3e59;
-      width: 5rem;
+    border: 0.1rem solid  #1e3e59;
+    width: 5rem;
   }
   .line1{
-      border: 2.5px solid  #1e3e59;
+      border: 2px solid  #1e3e59;
   }
   .line2{
-    border: 2.5px solid  #1e3e59;
+    border: 1.8px solid  #1e3e59;
   }
   .line3{
-    border: 2.5px solid  #dfcca7;
+    border: 1.8px solid  #dfcca7;
+  }
+  .line4{
+    border: 1.7px solid   #1e3e59;
   }
   .endlinks  li {
     list-style: none;
@@ -372,8 +374,8 @@ body{
 }
 
 /* bliss_in_the_woods.css */
-#bliss_headerimg{
-  background-image: url("../bliss_in_the_woods_imgs/bliss-in-the-woods-header-bg.jpg") ;
+.blissimg .bg-image{
+  background-image: url("../bliss_in_the_woods_imgs/blissimg.jpg") ;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -381,15 +383,17 @@ body{
   height: 25rem;
   line-height: 1.6;
 }
-
+.amenities{
+  padding-left: 3rem;
+}
 .indoorgames{
-  padding-left: 6rem;
+  padding-left: 3rem;
 }
 .commonamenities{
   padding-left: 3rem;
 }
 .location{
-  padding: 0rem 5rem;
+  padding: 0rem 4rem;
 }
 /* MEDIA QURIES */
 @media only screen and (max-width: 600px) {
@@ -485,6 +489,9 @@ body{
   .galaxyimg .bg-image{
     height: 15rem;
   }
+  .blissimg .bg-image{
+    height: 15rem;
+  }
   .galaxylogosec .towntxt{
     font-size: 1rem;
     padding: 0 1rem;
@@ -508,30 +515,25 @@ body{
     width: 90%;
     border-radius: 7%;
 }
-.indoorgames{
-  padding-left: 5.2rem;
-}
-.commonamenities{
-  padding-left: 5.2rem;
-}
-.amenities{
-  padding-left: 5.2rem;
-}
+
 .location{
-  padding: 0rem 0.1rem;
+  padding: 0rem 0rem;
 }
 .line {
   border: 0.1rem solid  #1e3e59;
   width: 5rem;
 }
 .line1{
-  border: 1.5px solid  #1e3e59;
+  border: 1.6px solid  #1e3e59;
 }
 .line2{
-border: 1.5px solid  #1e3e59;
+border: 1.6px solid  #1e3e59;
 }
 .line3{
-border: 1.5px solid  #dfcca7;
+border: 1.6px solid  #dfcca7;
+}
+.line4{
+  border: 1.6px solid   #1e3e59;
 }
 }
 
